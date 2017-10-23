@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/077a78fd9299beb0285c5f432e192833c5f79563/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bb3945456caaa568129fdd0d370f2985a92b0db3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_129a4fe9c9d78b1a561eed808084d5020f47317b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91e2d237b2c6f2328fc109fe04eb1ffd94d1768d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/56cb40ef41912285efa71433c8233ed02cee8a7d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_677422e29f1ec7a566e46048b2ecf0b378ad23cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/0a3d746cd3664d64bfb10ec2e20be4d9f5a1456b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a723f7e3c69ab3bb7697131fd117fa42b4217e68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/eedc4f03503f4c47d2bf643d372a33dfa28855fc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22d9405f442f092e34d132eac65d47ef49bba71f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_5d768f2efc96c1e3a7ccdd2ab940eb95d2606122/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/bc373fb6bc7bca3035041b924f158fd2b946ee8d/butterknife-annotations-8.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.8.1_876c423d76080910f0aeca762a85184a9dd57d01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1b4b12645e692cd9007c9a42b73dfda8fbb72d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_8297e0ae78b87debb24d649b7c2248a79ea695e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/081b5ac0590d42092b6575f2d8408b8f453937a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c977087c7398ccd2b43fd14934c08cb99d40857a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/fc0cc2d754f002c6482f069c2d8a3c178b0203f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1bde08591e2a757354fb82618be78451c7b2adda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/037159f8cc9661213dec9f67afafbb00900b1b54/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1a99d38bcdae795c34b2837dc2cbec746f43897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_20534d4f4bb08fec99648b1478722aae4d83e2a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_8227fedb47aab498d7f61f7c7d41143d640687b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_592feec73d64698873acc9dee4211cfecc634d98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/ce6d94192244d04cb84f46ba904de3b6d03e4d8d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44e399a91f9661333b308cbdb6fd695bfb17bae6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.3.0_59086bf0bc2636011d84a042ffce6b74b0a4191b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/bc64de888f3b346c7de3787c2c65a5a37889601b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b614956bf77eb8201754ac10109e52c36691cb3f">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b92dfa8eb1f28710448958ddd6079640798d8133/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/22f0b9f1da4a7c617c3a3f4a20e598ec198cb9c0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21d6dcd15fc103374862ebd6fd603648e81170e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_0e8e26564d93337ccf08acef280ddb50290ad95a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c8a975e1cd0a40575ba8693596d64f3e1d91757d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/9b12d444a64017a90644ec75d8dafc9149a73d5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c774fe57ad03dbc609a0399c94c0c9974024ed93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3d00d7579fd698bd4e5071af00955fab264888af">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d1e19c1b94feb7c32d5804a32c91c70fdad1eb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_503d75e40aae4cbfa2328fbd8bfca016f253c142/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/31540c8f2d3170e7726751a12d023b368da2e123/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_104bf0a70430c6fc08a30900d9cbaa7a637e8e66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/f7600f4cb55d18322c2e4ebb8d493ebe5fa2f2dd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f232c99b74004299657e785b708c44138853625/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/ef59fe46663d6246b2572d1702cb71b86a877417/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba804ff0c88c747d7e04039cfdb72ae527f8b4c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.1.0_d63a75dce573dc5ea725d3f76443830635a30a80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/0962a964602c5e590be3227d26045ec9585eae45/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_442a24cc0cb6d98f76c21bccc63789d94dc410f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.android/build-cache/ede75fa41fec8999022b8a3f11bd3a022ddd2a50/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb811f8ec8a23eb96b4fbba2330c5e9b627215bf/classes.dex" />
+    </item>
+
+</items>
