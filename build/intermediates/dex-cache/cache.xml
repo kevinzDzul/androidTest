@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1b4b12645e692cd9007c9a42b73dfda8fbb72d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b5753073bcd375839f52ca7760ce0e75081f3c94">
+        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d1e19c1b94feb7c32d5804a32c91c70fdad1eb6/classes.dex" />
+    </item>
+
+</items>
