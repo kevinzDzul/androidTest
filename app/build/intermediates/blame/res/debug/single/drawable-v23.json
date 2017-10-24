@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
         "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/drawable-v23/abc_control_background_material.xml"
     }

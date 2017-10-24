@@ -1,14 +1,18 @@
 package test.com.hellogenio.api;
 
 
-import com.android.volley.RequestQueue;
+import com.android.volley.VolleyError;
+
+import org.json.JSONObject;
 
 /**
  * Created by kevin on 22/10/17.
  */
 
-public class DataApi {
+public interface DataApi {
 
+    void notifySuccess(String requestType,JSONObject response);
+    void notifyError(String requestType,VolleyError error);
 
     //private static Retrofit retrofit = null;
 
@@ -23,5 +27,5 @@ public class DataApi {
 
         return retrofit;
     }*/
-    
+
 }

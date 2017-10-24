@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/kevin/.android/build-cache/077a78fd9299beb0285c5f432e192833c5f79563/output/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/kevin/.android/build-cache/077a78fd9299beb0285c5f432e192833c5f79563/output/res/layout-v16/notification_template_custom_big.xml"
     }

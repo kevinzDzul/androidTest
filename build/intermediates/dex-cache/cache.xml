@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/kevin/Desktop/androidTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c464fc260356c5b006e44479bf37b018c187135c">
+        <dex dex="/Users/kevin/Desktop/androidTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2d5d9edec80b3f57426e222eaedea2b51a62caf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/androidTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1b4b12645e692cd9007c9a42b73dfda8fbb72d2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e8433d0ae3b3b1acefcba4493c3dd874e4d1556e">
-        <dex dex="/Users/kevin/Downloads/HelloGenio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d1e19c1b94feb7c32d5804a32c91c70fdad1eb6/classes.dex" />
+        <dex dex="/Users/kevin/Desktop/androidTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_aaa8efa94c150040da47dc9898a2e5f802b4f954/classes.dex" />
     </item>
 
 </items>

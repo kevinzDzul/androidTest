@@ -9,9 +9,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.android.volley.VolleyError;
+
+import org.json.JSONObject;
 
 import java.util.List;
 
@@ -36,6 +41,7 @@ public class ListActivity extends AppCompatActivity {
 
     private DataAdapter mDataAdapter;
     private ListPresenter mListPresenter;
+    private DataService dataService = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +50,8 @@ public class ListActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        //DataService dataService = DataApi.getTestData().create(DataService.class);
 
-        DataService dataService = DataApi.getTestData().create(DataService.class);
         mListPresenter = new ListPresenter(this,dataService);
         mListPresenter.loadData();
 
@@ -63,6 +69,7 @@ public class ListActivity extends AppCompatActivity {
         mDataAdapter.addAll(mListData);
         mProgressBar.setVisibility(View.INVISIBLE);
     }
+
 
 
     @Override
@@ -95,8 +102,6 @@ public class ListActivity extends AppCompatActivity {
                     break;
 
             }
-
-            //Toast.makeText(context, status, Toast.LENGTH_LONG).show();
         }
     };
 }

@@ -12,7 +12,8 @@ buildscript {
             'retrofit':'2.3.0',
             'glide':'3.7.0',
             'circleImageView':'2.1.0',
-            'volley':'1.0.0'
+            'volley':'1.0.0',
+            'gson':'2.8.2'
     ]
     repositories {
         jcenter()

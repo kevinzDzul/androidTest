@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
-    },
-    {
         "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
         "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
     },

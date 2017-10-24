@@ -39,6 +39,7 @@ dependencies {
     compile "com.github.bumptech.glide:glide:${versions.glide}"
     compile "com.android.volley:volley:${versions.volley}"
     compile "de.hdodenhof:circleimageview:${versions.circleImageView}"
+    compile "com.google.code.gson:gson:${versions.gson}"
     annotationProcessor "com.jakewharton:butterknife-compiler:${versions.butterKnifeCompiler}"
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'

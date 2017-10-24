@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/Users/kevin/Downloads/HelloGenio/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/kevin/Downloads/HelloGenio/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/kevin/Desktop/androidTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
