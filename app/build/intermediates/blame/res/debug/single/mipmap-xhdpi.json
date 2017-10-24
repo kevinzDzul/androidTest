@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/kevin/Downloads/HelloGenio/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/kevin/Downloads/HelloGenio/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

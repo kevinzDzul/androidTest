@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/anim/abc_slide_in_top.xml"
+    }
+]
