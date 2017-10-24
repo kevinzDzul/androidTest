@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/layout-v26/abc_screen_toolbar.xml",
+        "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
         "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/layout-v26/abc_screen_toolbar.xml",
         "source": "/Users/kevin/.android/build-cache/50a7211e4ab716bd21e5281724c4b24cdb21d985/output/res/layout-v26/abc_screen_toolbar.xml"
     }

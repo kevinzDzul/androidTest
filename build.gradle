@@ -11,7 +11,8 @@ buildscript {
             'butterKnifeCompiler':'8.8.1',
             'retrofit':'2.3.0',
             'glide':'3.7.0',
-            'circleImageView':'2.1.0'
+            'circleImageView':'2.1.0',
+            'volley':'1.0.0'
     ]
     repositories {
         jcenter()

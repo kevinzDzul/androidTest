@@ -2,5 +2,9 @@
     {
         "merged": "/Users/kevin/Downloads/HelloGenio/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/androidTest/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/kevin/.android/build-cache/1fd7bf5461ae2cf527e50f57e3c577e30a289574/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

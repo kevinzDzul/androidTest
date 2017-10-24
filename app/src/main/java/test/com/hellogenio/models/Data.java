@@ -1,9 +1,5 @@
 package test.com.hellogenio.models;
 
-import android.support.annotation.Nullable;
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 
 /**
@@ -13,22 +9,22 @@ import com.google.gson.annotations.SerializedName;
 public class Data {
 
 
-    @SerializedName("type")
-    @Expose
+    /*@SerializedName("type")
+    @Expose*/
     private String type;
 
-    @SerializedName("name")
-    @Expose
+    /*@SerializedName("name")
+    @Expose*/
     private String name;
 
 
-    @SerializedName("text")
-    @Expose
+    /*@SerializedName("text")
+    @Expose*/
     private String text;
 
 
-    @SerializedName("image")
-    @Expose
+    /*@SerializedName("image")
+    @Expose*/
     private String image;
 
 

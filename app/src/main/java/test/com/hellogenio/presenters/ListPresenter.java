@@ -2,11 +2,8 @@ package test.com.hellogenio.presenters;
 
 import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+
 import test.com.hellogenio.api.DataService;
-import test.com.hellogenio.models.ArrayData;
 import test.com.hellogenio.models.Data;
 import test.com.hellogenio.utils.SharedPreference;
 import test.com.hellogenio.views.ListActivity;
@@ -27,9 +24,9 @@ public class ListPresenter {
         sp = new SharedPreference();
     }
 
-    public void loadData(){
+    public void loadData() {
 
-        mData.getAllData().enqueue(new Callback<ArrayData>() {
+        /*mData.getAllData().enqueue(new Callback<ArrayData>() {
             @Override
             public void onResponse(Call<ArrayData> call, Response<ArrayData> response) {
 
@@ -46,22 +43,22 @@ public class ListPresenter {
                 t.printStackTrace();
                 getListDataSP();
             }
-        });
+        });*/
 
     }
 
-    private List<Data> fetchResults(Response<ArrayData> response) {
+   /* private List<Data> fetchResults(Response<ArrayData> response) {
         ArrayData data = response.body();
         return data.getResults();
-    }
+    }*/
 
-    private void saveListDataSP(List<Data>dataList){
+    private void saveListDataSP(List<Data> dataList) {
         sp = new SharedPreference();
-        sp.saveData(mView,dataList);
+        sp.saveData(mView, dataList);
 
     }
 
-    private void getListDataSP(){
+    private void getListDataSP() {
         List<Data> dataList = sp.getData(mView);
         mView.displayData(dataList);
     }
