@@ -1,4 +1,4 @@
-#Tue Oct 24 16:16:54 CDT 2017
+#Tue Oct 24 17:55:49 CDT 2017
 base.0=/Users/kevin/Desktop/androidTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_aaa8efa94c150040da47dc9898a2e5f802b4f954
 renamed.1=classes.dex
 renamed.0=classes2.dex

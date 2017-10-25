@@ -1,6 +1,8 @@
 package test.com.hellogenio.models;
 
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by kevin on 22/10/17.
@@ -9,22 +11,23 @@ package test.com.hellogenio.models;
 public class Data {
 
 
-    /*@SerializedName("type")
-    @Expose*/
+
+    @SerializedName("type")
+    @Expose
     private String type;
 
-    /*@SerializedName("name")
-    @Expose*/
+    @SerializedName("name")
+    @Expose
     private String name;
 
 
-    /*@SerializedName("text")
-    @Expose*/
+    @SerializedName("text")
+    @Expose
     private String text;
 
 
-    /*@SerializedName("image")
-    @Expose*/
+    @SerializedName("image")
+    @Expose
     private String image;
 
 

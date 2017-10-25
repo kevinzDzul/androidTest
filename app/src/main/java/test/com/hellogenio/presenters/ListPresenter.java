@@ -4,15 +4,14 @@ import android.util.Log;
 
 import com.android.volley.VolleyError;
 
-import org.json.JSONObject;
-
 import java.util.List;
 
 
 import test.com.hellogenio.api.DataApi;
 import test.com.hellogenio.api.DataService;
+import test.com.hellogenio.models.ArrayData;
 import test.com.hellogenio.models.Data;
-import test.com.hellogenio.utils.Constant;
+import test.com.hellogenio.tools.Constant;
 import test.com.hellogenio.utils.SharedPreference;
 import test.com.hellogenio.views.ListActivity;
 
@@ -36,39 +35,43 @@ public class ListPresenter {
 
     public void loadData() {
 
-        mData = new DataService(mResultCallback,mView);
-        mData.getDataVolley(Constant.DATA,Constant.DATA);
+        mData = new DataService(mResultCallback, mView);
+        mData.getDataVolley(Constant.DATA);
     }
 
-   /* private List<Data> fetchResults(Response<ArrayData> response) {
-        ArrayData data = response.body();
-        return data.getResults();
-    }*/
-   void initVolleyCallback(){
-       mResultCallback = new DataApi() {
-           @Override
-           public void notifySuccess(String requestType,JSONObject response) {
-               Log.d(TAG, "Volley requester " + requestType);
-               Log.d(TAG, "Volley JSON post" + response);
-           }
 
-           @Override
-           public void notifyError(String requestType,VolleyError error) {
-               Log.d(TAG, "Volley requester " + requestType);
-               Log.d(TAG, "Volley JSON post" + "That didn't work!");
-           }
-       };
-   }
+    void initVolleyCallback() {
+        mResultCallback = new DataApi() {
+            @Override
+            public void notifySuccess(ArrayData response) {
+
+
+                saveListDataSP(response.getResults());
+                getListDataSP();
+
+            }
+
+            @Override
+            public void notifyError(VolleyError error) {
+                Log.d(TAG, "Volley JSON post" + "That didn't work!");
+            }
+        };
+    }
 
 
     private void saveListDataSP(List<Data> dataList) {
+
+
+
         sp = new SharedPreference();
         sp.saveData(mView, dataList);
 
     }
 
-    private void getListDataSP() {
+    public void getListDataSP() {
         List<Data> dataList = sp.getData(mView);
         mView.displayData(dataList);
     }
+
+    
 }

@@ -5,14 +5,16 @@ import com.android.volley.VolleyError;
 
 import org.json.JSONObject;
 
+import test.com.hellogenio.models.ArrayData;
+
 /**
  * Created by kevin on 22/10/17.
  */
 
 public interface DataApi {
 
-    void notifySuccess(String requestType,JSONObject response);
-    void notifyError(String requestType,VolleyError error);
+    void notifySuccess(ArrayData response);
+    void notifyError(VolleyError error);
 
     //private static Retrofit retrofit = null;
 

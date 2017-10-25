@@ -2,16 +2,15 @@ package test.com.hellogenio.api;
 
 
 import android.content.Context;
+import android.util.Log;
 
-import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
 
-import org.json.JSONObject;
-
-import test.com.hellogenio.utils.Constant;
+import test.com.hellogenio.models.ArrayData;
+import test.com.hellogenio.tools.Constant;
+import test.com.hellogenio.tools.GsonRequest;
+import test.com.hellogenio.tools.MySingleton;
 
 /**
  * Created by kevin on 23/10/17.
@@ -27,9 +26,31 @@ public class DataService {
           this.mContext = mContext;
      }
 
-     public void getDataVolley(final String requestType, String url){
+     public void getDataVolley(String url){
 
-          try {
+          MySingleton.getInstance(mContext).addToRequestQueue(new GsonRequest<ArrayData>(
+                  Constant.URL+url,
+                  ArrayData.class,
+                  null,
+                  new Response.Listener<ArrayData>(){
+                       @Override
+                       public void onResponse(ArrayData response) {
+                            if(mResultCallback != null)
+                                 mResultCallback.notifySuccess(response);
+                       }
+                  },
+                  new Response.ErrorListener(){
+                       @Override
+                       public void onErrorResponse(VolleyError error) {
+                            if(mResultCallback != null)
+                                 mResultCallback.notifyError(error);
+                       }
+                  }
+
+          ));
+
+
+          /*try {
 
 
                RequestQueue queue = Volley.newRequestQueue(mContext);
@@ -51,7 +72,7 @@ public class DataService {
 
           }catch (Exception e){
 
-          }
+          }*/
 
      }
 

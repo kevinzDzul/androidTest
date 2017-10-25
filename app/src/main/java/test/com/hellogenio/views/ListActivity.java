@@ -9,14 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import com.android.volley.VolleyError;
-
-import org.json.JSONObject;
 
 import java.util.List;
 
@@ -24,11 +18,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import test.com.hellogenio.R;
 import test.com.hellogenio.adapters.DataAdapter;
-import test.com.hellogenio.api.DataApi;
 import test.com.hellogenio.api.DataService;
 import test.com.hellogenio.models.Data;
 import test.com.hellogenio.presenters.ListPresenter;
-import test.com.hellogenio.utils.Constant;
+import test.com.hellogenio.tools.Constant;
 import test.com.hellogenio.utils.NetworkUtil;
 
 public class ListActivity extends AppCompatActivity {
@@ -50,8 +43,6 @@ public class ListActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        //DataService dataService = DataApi.getTestData().create(DataService.class);
-
         mListPresenter = new ListPresenter(this,dataService);
         mListPresenter.loadData();
 
@@ -65,7 +56,6 @@ public class ListActivity extends AppCompatActivity {
 
 
     public void displayData(List<Data> mListData) {
-
         mDataAdapter.addAll(mListData);
         mProgressBar.setVisibility(View.INVISIBLE);
     }
@@ -75,7 +65,7 @@ public class ListActivity extends AppCompatActivity {
     @Override
     protected void onPostResume() {
         super.onPostResume();
-        IntentFilter inF = new IntentFilter("statusNetwork");
+        IntentFilter inF = new IntentFilter(Constant.STATUS_NETWORK);
         LocalBroadcastManager.getInstance(this).registerReceiver(dataChangeReceiver, inF);
     }
 

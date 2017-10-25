@@ -4,6 +4,8 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+import test.com.hellogenio.tools.Constant;
+
 /**
  * Created by kevin on 23/10/17.
  */

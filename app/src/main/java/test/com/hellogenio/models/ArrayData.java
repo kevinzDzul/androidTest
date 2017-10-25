@@ -1,6 +1,9 @@
 package test.com.hellogenio.models;
 
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,8 +13,8 @@ import java.util.List;
 
 public class ArrayData {
 
-    /*@SerializedName("array")
-    @Expose*/
+    @SerializedName("array")
+    @Expose
     private List<Data> results = new ArrayList<Data>();
 
     public List<Data> getResults() {
