@@ -1,4 +1,4 @@
-#Tue Oct 24 17:02:47 CDT 2017
+#Wed Oct 25 00:13:16 CDT 2017
 base.0=/Users/kevin/Desktop/androidTest/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
 file.0=/Users/kevin/Desktop/androidTest/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

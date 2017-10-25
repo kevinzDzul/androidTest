@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import test.com.hellogenio.models.Data;
+import test.com.hellogenio.models.DataObj;
 
 /**
  * Created by kevin on 23/10/17.
@@ -23,7 +23,7 @@ public class SharedPreference {
         super();
     }
 
-    public void saveData(Context context, List<Data> dataList) {
+    public void saveData(Context context, List<DataObj> dataObjList) {
         SharedPreferences settings;
         SharedPreferences.Editor editor;
 
@@ -32,7 +32,7 @@ public class SharedPreference {
         editor = settings.edit();
 
         Gson gson = new Gson();
-        String jsonData = gson.toJson(dataList);
+        String jsonData = gson.toJson(dataObjList);
 
         editor.putString(DATA, jsonData);
 
@@ -40,9 +40,9 @@ public class SharedPreference {
     }
 
 
-    public List<Data> getData(Context context) {
+    public List<DataObj> getData(Context context) {
         SharedPreferences settings;
-        List<Data> dataList;
+        List<DataObj> dataObjList;
 
         settings = context.getSharedPreferences(PREFS_NAME,
                 Context.MODE_PRIVATE);
@@ -50,14 +50,14 @@ public class SharedPreference {
         if (settings.contains(DATA)) {
             String jsonData = settings.getString(DATA, null);
             Gson gson = new Gson();
-            Data[] dataItems = gson.fromJson(jsonData,
-                    Data[].class);
+            DataObj[] dataObjItems = gson.fromJson(jsonData,
+                    DataObj[].class);
 
-            dataList = Arrays.asList(dataItems);
-            dataList = new ArrayList<Data>(dataList);
+            dataObjList = Arrays.asList(dataObjItems);
+            dataObjList = new ArrayList<DataObj>(dataObjList);
         } else
             return null;
 
-        return (ArrayList<Data>) dataList;
+        return (ArrayList<DataObj>) dataObjList;
     }
 }

@@ -19,9 +19,9 @@ import butterknife.ButterKnife;
 import test.com.hellogenio.R;
 import test.com.hellogenio.adapters.DataAdapter;
 import test.com.hellogenio.api.DataService;
-import test.com.hellogenio.models.Data;
 import test.com.hellogenio.presenters.ListPresenter;
 import test.com.hellogenio.tools.Constant;
+import test.com.hellogenio.tools.interfaces.ListItem;
 import test.com.hellogenio.utils.NetworkUtil;
 
 public class ListActivity extends AppCompatActivity {
@@ -55,8 +55,8 @@ public class ListActivity extends AppCompatActivity {
     }
 
 
-    public void displayData(List<Data> mListData) {
-        mDataAdapter.addAll(mListData);
+    public void displayData(List<ListItem> mListData) {
+        mDataAdapter.swapItems(mListData);
         mProgressBar.setVisibility(View.INVISIBLE);
     }
 
@@ -81,8 +81,8 @@ public class ListActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             int  status = NetworkUtil.getConnectivityStatusString(context);
 
-            switch (status){
 
+            switch (status){
                 case Constant.TYPE_WIFI:
                     mListPresenter.loadData();
                     break;

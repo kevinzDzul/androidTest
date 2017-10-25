@@ -15,9 +15,9 @@ public class ArrayData {
 
     @SerializedName("array")
     @Expose
-    private List<Data> results = new ArrayList<Data>();
+    private List<DataObj> results = new ArrayList<DataObj>();
 
-    public List<Data> getResults() {
+    public List<DataObj> getResults() {
         return results;
     }
 

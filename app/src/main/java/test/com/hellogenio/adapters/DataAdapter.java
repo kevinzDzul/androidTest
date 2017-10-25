@@ -23,6 +23,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import test.com.hellogenio.R;
 import test.com.hellogenio.models.Data;
+import test.com.hellogenio.models.Footer;
+import test.com.hellogenio.models.Header;
+import test.com.hellogenio.tools.interfaces.ListItem;
 
 /**
  * Created by kevin on 22/10/17.
@@ -30,16 +33,8 @@ import test.com.hellogenio.models.Data;
 
 public class DataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private static final int VIEW_TYPE_HEADER = 0;
-    private static final int VIEW_TYPE_FOOTER = 1;
-
-    private static final int VIEW_TYPE_LEFT = 2;
-    private static final int VIEW_TYPE_RIGHT = 3;
-
-
-    private List<Data> mDataResult;
+    private List<ListItem> mDataResult;
     private Context mContext;
-    private Data mTempData = null;
 
     public DataAdapter(Context mContext) {
         this.mDataResult = new ArrayList<>();
@@ -54,27 +49,27 @@ public class DataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         RecyclerView.ViewHolder viewHolder = null;
         switch (viewType) {
 
-            case VIEW_TYPE_HEADER:
+            case ListItem.TYPE_HEADER:
 
                 View mViewHeader = layoutInflater.inflate(R.layout.layout_item_header, parent, false);
                 viewHolder = new MyHeaderViewHolder(mViewHeader);
 
                 break;
 
-            case VIEW_TYPE_LEFT:
+            case ListItem.TYPE_ITEM_LEFT:
 
                 View mViewLeft = layoutInflater.inflate(R.layout.layout_item_left, parent, false);
                 viewHolder = new MyLeftViewHolder(mViewLeft);
 
                 break;
 
-            case VIEW_TYPE_RIGHT:
+            case ListItem.TYPE_ITEM_RIGHT:
 
                 View mViewRight = layoutInflater.inflate(R.layout.layout_item_right, parent, false);
                 viewHolder = new MyRightViewHolder(mViewRight);
                 break;
 
-            case VIEW_TYPE_FOOTER:
+            case ListItem.TYPE_FOOTER:
 
                 View mViewFooter = layoutInflater.inflate(R.layout.layout_item_footer, parent, false);
                 viewHolder = new MyFooterViewHolder(mViewFooter);
@@ -86,25 +81,25 @@ public class DataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     }
 
-    public void add(Data dt) {
+    public void add(ListItem dt) {
         mDataResult.add(dt);
         notifyItemInserted(mDataResult.size() - 1);
     }
 
-    public void addAll(List<Data> dtList) {
+    public void swapItems( List<ListItem> listItems) {
+        if (listItems == null) {
+            this.mDataResult = new ArrayList<>(0);
+        } else {
+            this.mDataResult = listItems;
+        }
+        notifyDataSetChanged();
+    }
 
-        Data temp_data = null;
+    public void addAll(List<ListItem> dtList) {
 
-        for (Data dt : dtList) {
-
-            if (dt.isFooter()) {
-                temp_data = dt;
-                continue;
-            }
+        for (ListItem dt : dtList) {
             add(dt);
         }
-
-        add(temp_data);
     }
 
 
@@ -144,44 +139,23 @@ public class DataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public int getItemViewType(int position) {
 
-        if (isPositionHeader(position) && mDataResult.get(position).isHeader())
-            return VIEW_TYPE_HEADER;
-
-        else if (isPositionFooter(position))
-            return VIEW_TYPE_FOOTER;
-
-        else if (mDataResult.get(position).getType().equals("data_0"))
-            return VIEW_TYPE_RIGHT;
-
-        else
-            return VIEW_TYPE_LEFT;
-
-        //}
+        return mDataResult.get(position).getListItemType();
     }
-
-    private boolean isPositionHeader(int position) {
-        return position == 0;
-    }
-
-    private boolean isPositionFooter(int position) {
-        return position == mDataResult.size() - 1;
-    }
-
 
     private void configureHeaderViewHolder(MyHeaderViewHolder myHeaderViewHolder, int position) {
-        Data mData = mDataResult.get(position);
+        Header mData = (Header) mDataResult.get(position);
         myHeaderViewHolder.titleHeader.setText(mData.getName());
     }
 
     private void configureFooterViewHolder(MyFooterViewHolder myFooterViewHolder, int position) {
-        Data mData = mDataResult.get(position);
+        Footer mData = (Footer) mDataResult.get(position);
         myFooterViewHolder.titleFooter.setText(mData.getText());
 
     }
 
 
     private void configureMyLeftViewHolder(final MyLeftViewHolder myLeftViewHolder, int position) {
-        Data mData = mDataResult.get(position);
+        Data mData = (Data) mDataResult.get(position);
 
         myLeftViewHolder.nameTitleLeft.setText(mData.getText());
         Glide.with(mContext)
@@ -209,7 +183,7 @@ public class DataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     private void configureMyRightViewHolder(final MyRightViewHolder myRightViewHolder, int position) {
-        Data mData = mDataResult.get(position);
+        Data mData = (Data) mDataResult.get(position);
 
         myRightViewHolder.nameTitleRight.setText(mData.getText());
         myRightViewHolder.nameTitleRight.setText(mData.getText());

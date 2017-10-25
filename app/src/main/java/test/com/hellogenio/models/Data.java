@@ -1,35 +1,23 @@
 package test.com.hellogenio.models;
 
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+import test.com.hellogenio.tools.Constant;
+import test.com.hellogenio.tools.interfaces.ListItem;
 
 /**
- * Created by kevin on 22/10/17.
+ * Created by kevin on 24/10/17.
  */
 
-public class Data {
+public class Data implements ListItem {
 
-
-
-    @SerializedName("type")
-    @Expose
     private String type;
-
-    @SerializedName("name")
-    @Expose
-    private String name;
-
-
-    @SerializedName("text")
-    @Expose
     private String text;
-
-
-    @SerializedName("image")
-    @Expose
     private String image;
 
+    public Data(String type, String text, String image) {
+        this.type = type;
+        this.text = text;
+        this.image = image;
+    }
 
     public String getType() {
         return type;
@@ -37,14 +25,6 @@ public class Data {
 
     public void setType(String type) {
         this.type = type;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getText() {
@@ -63,10 +43,13 @@ public class Data {
         this.image = image;
     }
 
-    public boolean isFooter(){
-        return  type.equals("footer") ? true : false;
-    }
-    public boolean isHeader(){
-        return  type.equals("header") ? true : false;
+    @Override
+    public int getListItemType() {
+
+        if(type.equals(Constant.TYPE_DATA_1))
+            return TYPE_ITEM_LEFT;
+        else
+            return TYPE_ITEM_RIGHT;
+
     }
 }
